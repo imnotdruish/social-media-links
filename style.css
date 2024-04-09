@@ -59,7 +59,7 @@ main img {
 .location {
   color: var(--primary-color);
   margin-bottom: 2rem;
-  font-weight: 600;
+  font-weight: var(--fw-semibold);
 }
 
 .social__links__container {
