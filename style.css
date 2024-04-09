@@ -11,10 +11,13 @@ html {
   --neutral-dark: hsl(0, 0%, 12%);
   --neutral-accent: hsl(0, 0%, 8%);
   --ff-primary: 'Inter', sans-serif;
+  --fw-normal: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
 
   font-size: 14px;
   font-family: var(--ff-primary);
-  font-weight: 400;
+  font-weight: var(--fw-normal);
   color: var(--neutral-light);
   background-color: var(--neutral-accent);
 }
@@ -50,7 +53,7 @@ main img {
 
 .name {
   margin-bottom: 1rem;
-  font-weight: 600;
+  font-weight: var(--fw-semibold);
 }
 
 .location {
@@ -77,7 +80,7 @@ li a {
   padding: 1rem 2rem;
   text-decoration: none;
   color: var(--neutral-light);
-  font-weight: 600;
+  font-weight: var(--fw-semibold);
   transition-duration: 500ms;
 }
 
